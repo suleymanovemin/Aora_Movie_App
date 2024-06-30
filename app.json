@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Movies_APP",
-    "slug": "Movies_APP",
+    "name": "Aora",
+    "slug": "aora",
+    "scheme": "aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +13,19 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "packed": "com.app.aora",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "packed": "com.app.aora"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
